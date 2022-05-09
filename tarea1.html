@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1 Cambiar Fondo</title>
+    <link rel="stylesheet" href="tarea1.css">
+</head>
+<body id="cuerpo">
+    <h1>Cambiamos el color de fondo</h1>
+    <div id="rojo" class="cuadrado">Click aquí para cambiar color de fondo</div>
+    <br>
+    <div id="azul" class="cuadrado">Click aquí para cambiar color de fondo</div>
+    <br>
+    <div id="verde" class="cuadrado">Click aquí para cambiar color de fondo</div>
+    
+    <script>
+        var cuerpo = document.getElementById('cuerpo');
+        var rojo = document.getElementById('rojo');
+        var azul = document.getElementById('azul');
+        var verde = document.getElementById('verde');
+
+        rojo.addEventListener('click' , function onclick(event) {
+            cuerpo.style.backgroundColor = 'red';
+        });
+
+        azul.addEventListener('click' , function onclick(event) {
+            cuerpo.style.backgroundColor = 'blue';
+        });
+        
+        verde.addEventListener('click' , function onclick(event) {
+            cuerpo.style.backgroundColor = 'green';
+        });
+    </script>
+</body>
+</html>

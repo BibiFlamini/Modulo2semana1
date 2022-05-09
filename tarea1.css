@@ -1,0 +1,24 @@
+#rojo{
+    border: solid black 3px;
+    background-color: red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 1200px;
+    padding-right: 100px;
+}
+#azul{
+    border: solid black 3px;
+    background-color: blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 1200px;
+    padding-right: 100px;
+}
+#verde{
+    border: solid black 3px;
+    background-color: green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 1200px;
+    padding-right: 100px;
+}
